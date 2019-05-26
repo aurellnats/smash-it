@@ -53,15 +53,15 @@ class ViewController: UIViewController {
         }
     }
     @IBAction func retryBtn(_ sender: Any) {
-//        btnLevel = 0
-//        rangeTime = 45
-//        totalScore = 0
-//        displayScore()
-//        noClick = 0
-//        scaleButton(button: tapBtn)
-//        tapBtn.setImage(UIImage(named: "redBtn"), for: .normal)
-//        retry.isHidden = true
-//        start.isHidden = false
+        btnLevel = 0
+        rangeTime = 45
+        totalScore = 0
+        displayScore()
+        noClick = 0
+        scaleButton(button: tapBtn)
+        tapBtn.setImage(UIImage(named: "redBtn"), for: .normal)
+        retry.isHidden = true
+        start.isHidden = false
     }
     
     func calculateTotalScore(){
